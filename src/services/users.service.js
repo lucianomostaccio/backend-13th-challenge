@@ -52,20 +52,24 @@ export class UsersService {
   }
 
   // Update user by ID
-  async updateUser(_id, updatedUser) {
+  async updateUser(_id, updateFields) {
     try {
       const userToUpdate = await this.usersDao.readOne({ _id });
 
       if (!userToUpdate) {
-        Logger.warn("User not found for update");
-        return null;
+        Logger.warning("User not found for update");
+        throw new Error("User not found");
       }
 
-      Object.assign(userToUpdate, updatedUser);
+      // Object.assign(userToUpdate, updatedUser);
 
-      await this.usersDao.updateOne({ _id }, userToUpdate);
-      Logger.info("User updated:", userToUpdate);
-      return userToUpdate;
+      const updatedUser = await this.usersDao.updateOne(
+        { _id },
+        { $set: updateFields },
+        { new: true }
+      );
+      Logger.info("User information updated:", { userId: updatedUser._id });
+      return updatedUser;
     } catch (error) {
       Logger.error("Error updating user:", error);
       throw error;
@@ -95,7 +99,7 @@ export class UsersService {
         Logger.info("User deleted:", deletedUser);
         return deletedUser;
       } else {
-        Logger.warn("User not found for deletion");
+        Logger.warning("User not found for deletion");
         return null;
       }
     } catch (error) {

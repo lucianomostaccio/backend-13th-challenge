@@ -5,7 +5,6 @@ import Logger from "../utils/logger.js";
 const productsDao = getDaoProducts();
 
 class ProductsService {
-  
   async addProduct(data) {
     const product = new Product(data);
     const savedProduct = await productsDao.create(product.toPOJO());
@@ -31,7 +30,7 @@ class ProductsService {
       const productToUpdate = await productsDao.readOne({ _id });
 
       if (!productToUpdate) {
-        Logger.warn("Product not found for update", { _id });
+        Logger.warning("Product not found for update", { _id });
         return null;
       }
 

@@ -70,49 +70,7 @@ usersRouter.put("/resetpass", async function (req, res) {
 usersRouter.put(
   "/edit",
   extractFile("profile_picture"),
-  async function (req, res) {
-    try {
-      // Update user information
-      const updateFields = {
-        first_name: req.body.first_name,
-        last_name: req.body.last_name,
-        age: req.body.age,
-      };
-
-      if (req.file) {
-        updateFields.profile_picture = req.file.path;
-      }
-
-      // @ts-ignore
-      const updatedUser = await getDaoUsers.updateOne(
-        { email: req.body.email },
-        { $set: updateFields },
-        { new: true }
-      );
-
-      Logger.info(req.body.profile_picture);
-
-      // Handle case where user does not exist
-      if (!updatedUser) {
-        Logger.warn("User not found for update:", { email: req.body.email });
-        return res
-          .status(404)
-          .json({ status: "error", message: "user not found" });
-      }
-
-      // Successful response
-      Logger.info("User information updated:", { userId: updatedUser._id });
-      res.json({
-        status: "success",
-        payload: updatedUser,
-        message: "user information updated",
-      });
-    } catch (error) {
-      // Handle errors
-      Logger.error("Error updating user information:", error);
-      res.status(400).json({ status: "error", message: error.message });
-    }
-  }
+  putController
 );
 
 usersRouter.delete("/:id", deleteController);
