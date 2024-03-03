@@ -1,0 +1,144 @@
+2024-03-02 12:22:12:2212 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:22:12:2212 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:22:16:2216 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:22:16:2216 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:27:12:2712 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:27:12:2712 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:28:21:2821 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:28:21:2821 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:28:26:2826 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:28:26:2826 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:28:34:2834 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:28:34:2834 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:28:36:2836 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:28:36:2836 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:28:49:2849 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:28:49:2849 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:29:54:2954 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:29:54:2954 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:35:00:350 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:35:00:350 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:35:02:352 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:35:02:352 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:35:10:3510 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:35:10:3510 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:35:17:3517 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:35:17:3517 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:35:37:3537 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:35:37:3537 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:39:15:3915 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:39:15:3915 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:39:56:3956 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:39:56:3956 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:41:34:4134 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:41:34:4134 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:41:36:4136 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:41:36:4136 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:43:50:4350 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:43:50:4350 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:43:51:4351 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-02 12:43:51:4351 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-02 12:44:08:448 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 12:44:08:448 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 12:44:08:448 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-02 12:44:08:448 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-02 13:41:54:4154 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 13:41:54:4154 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 13:41:55:4155 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-02 13:41:55:4155 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-02 15:32:39:3239 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-02 15:32:39:3239 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-02 15:32:39:3239 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-02 15:32:39:3239 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-02 15:32:46:3246 [34mdebug[39m: [34mRoot route accessed[39m
+2024-03-02 15:32:46:3246 [32minfo[39m: [32mUser not logged in, redirecting to /login[39m
+2024-03-02 15:32:56:3256 [34mdebug[39m: [34mAttempting to log in with email: email2@gmail.com[39m
+2024-03-02 15:32:56:3256 [34mdebug[39m: [34m{[39m
+[34m  _id: 'e4cc4f65-d69b-4a54-ad4e-8c2e3f6f1ef6',[39m
+[34m  email: 'email2@gmail.com',[39m
+[34m  password: '$2b$10$Wcfd8dUxa9VLn5pVNLLOGu61fgKz2z7gTIKvmDd70WAzBmd0RvdDK',[39m
+[34m  first_name: 'nombre 2',[39m
+[34m  last_name: 'apellido 2',[39m
+[34m  age: 22,[39m
+[34m  profile_picture: './imgs/profile.jpg',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-02 15:32:56:3256 [34mdebug[39m: [34mUser found by email:[39m
+2024-03-02 15:32:56:3256 [32minfo[39m: [32mLogin successful for user:[39m
+2024-03-02 15:33:09:339 [34mdebug[39m: [34m{[39m
+[34m  _id: 'e4cc4f65-d69b-4a54-ad4e-8c2e3f6f1ef6',[39m
+[34m  email: 'email2@gmail.com',[39m
+[34m  password: '$2b$10$Wcfd8dUxa9VLn5pVNLLOGu61fgKz2z7gTIKvmDd70WAzBmd0RvdDK',[39m
+[34m  first_name: 'nombre 2',[39m
+[34m  last_name: 'apellido 2',[39m
+[34m  age: 22,[39m
+[34m  profile_picture: './imgs/profile.jpg',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-02 15:33:09:339 [34mdebug[39m: [34mUser in session:[39m
+2024-03-02 15:33:23:3323 [34mdebug[39m: [34m{[39m
+[34m  _id: 'e4cc4f65-d69b-4a54-ad4e-8c2e3f6f1ef6',[39m
+[34m  email: 'email2@gmail.com',[39m
+[34m  password: '$2b$10$Wcfd8dUxa9VLn5pVNLLOGu61fgKz2z7gTIKvmDd70WAzBmd0RvdDK',[39m
+[34m  first_name: 'nombre 2',[39m
+[34m  last_name: 'apellido 2',[39m
+[34m  age: 22,[39m
+[34m  profile_picture: './imgs/profile.jpg',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-02 15:33:37:3337 [34mdebug[39m: [34m{[39m
+[34m  _id: 'e4cc4f65-d69b-4a54-ad4e-8c2e3f6f1ef6',[39m
+[34m  email: 'email2@gmail.com',[39m
+[34m  password: '$2b$10$Wcfd8dUxa9VLn5pVNLLOGu61fgKz2z7gTIKvmDd70WAzBmd0RvdDK',[39m
+[34m  first_name: 'nombre 2',[39m
+[34m  last_name: 'apellido 2',[39m
+[34m  age: 22,[39m
+[34m  profile_picture: './imgs/profile.jpg',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-02 15:33:37:3337 [34mdebug[39m: [34mSession user object:[39m
+2024-03-02 15:33:37:3337 [34mdebug[39m: [34m{[39m
+[34m  _id: 'e4cc4f65-d69b-4a54-ad4e-8c2e3f6f1ef6',[39m
+[34m  email: 'email2@gmail.com',[39m
+[34m  password: '$2b$10$Wcfd8dUxa9VLn5pVNLLOGu61fgKz2z7gTIKvmDd70WAzBmd0RvdDK',[39m
+[34m  first_name: 'nombre 2',[39m
+[34m  last_name: 'apellido 2',[39m
+[34m  age: 22,[39m
+[34m  profile_picture: './imgs/profile.jpg',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-02 15:33:37:3337 [34mdebug[39m: [34mUpdated user object from database:[39m
+2024-03-02 15:33:37:3337 [34mdebug[39m: [34mUser role:[39m
+2024-03-02 15:33:37:3337 [34mdebug[39m: [34mNormalized image path:[39m
+2024-03-02 15:33:37:3337 [34mdebug[39m: [34mFull image URL:[39m
+2024-03-02 15:33:37:3337 [34mdebug[39m: [34mSession updated with new user data[39m
+2024-03-02 15:33:47:3347 [34mdebug[39m: [34m{[39m
+[34m  _id: 'e4cc4f65-d69b-4a54-ad4e-8c2e3f6f1ef6',[39m
+[34m  email: 'email2@gmail.com',[39m
+[34m  password: '$2b$10$Wcfd8dUxa9VLn5pVNLLOGu61fgKz2z7gTIKvmDd70WAzBmd0RvdDK',[39m
+[34m  first_name: 'nombre 2',[39m
+[34m  last_name: 'apellido 2',[39m
+[34m  age: 22,[39m
+[34m  profile_picture: './imgs/profile.jpg',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-02 15:33:48:3348 [34mdebug[39m: [34m{[39m
+[34m  _id: 'e4cc4f65-d69b-4a54-ad4e-8c2e3f6f1ef6',[39m
+[34m  email: 'email2@gmail.com',[39m
+[34m  password: '$2b$10$Wcfd8dUxa9VLn5pVNLLOGu61fgKz2z7gTIKvmDd70WAzBmd0RvdDK',[39m
+[34m  first_name: 'nombre 2',[39m
+[34m  last_name: 'apellido 2',[39m
+[34m  age: 22,[39m
+[34m  profile_picture: './imgs/profile.jpg',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-02 15:33:48:3348 [34mdebug[39m: [34m{[39m
+[34m  _id: 'e4cc4f65-d69b-4a54-ad4e-8c2e3f6f1ef6',[39m
+[34m  email: 'email2@gmail.com',[39m
+[34m  password: '$2b$10$Wcfd8dUxa9VLn5pVNLLOGu61fgKz2z7gTIKvmDd70WAzBmd0RvdDK',[39m
+[34m  first_name: 'nombre 2',[39m
+[34m  last_name: 'apellido 2',[39m
+[34m  age: 22,[39m
+[34m  profile_picture: './imgs/profile.jpg',[39m
+[34m  orders: [][39m
+[34m}[39m
