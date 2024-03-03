@@ -47,15 +47,3 @@ export class ProductsDaoMongoose {
     throw new Error("NOT IMPLEMENTED");
   }
 }
-
-//   let productsDaoMongoose;
-//   console.log("using mongodb persistence - products");
-
-//   export async function getDaoMongoose() {
-//     if (!productsDaoMongoose) {
-//       await connect(MONGODB_CNX_STR);
-//       console.log("connected to mongodb");
-//       productsDaoMongoose = new ProductsDaoMongoose();
-//     }
-//     return productsDaoMongoose;
-//   }
