@@ -22,7 +22,9 @@ export async function postController(req, res, next) {
 
 export async function addToCartController(req, res, next) {
   const { pid } = req.params;
+  console.log("product id obtained in controller", pid)
   const userId = req.session.user._id;
+  console.log("user id obtained in controller", userId)
 
   try {
     await cartsService.addProductToCart(userId, pid);

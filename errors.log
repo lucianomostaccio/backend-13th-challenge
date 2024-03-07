@@ -1831,3 +1831,554 @@
 2024-03-06 23:07:59:759 [32minfo[39m: [32musing mongodb persistence - orders[39m
 2024-03-06 23:08:00:80 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
 2024-03-06 23:08:00:80 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:10:04:104 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:04:104 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:05:105 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:05:105 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:10:06:106 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:06:106 [34mdebug[39m: [34mSession user object:[39m
+2024-03-06 23:10:06:106 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:06:106 [34mdebug[39m: [34mUpdated user object from database:[39m
+2024-03-06 23:10:06:106 [34mdebug[39m: [34mUser role:[39m
+2024-03-06 23:10:06:106 [34mdebug[39m: [34mNormalized image path:[39m
+2024-03-06 23:10:06:106 [34mdebug[39m: [34mFull image URL:[39m
+2024-03-06 23:10:06:106 [34mdebug[39m: [34mSession updated with new user data[39m
+2024-03-06 23:10:07:107 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:07:107 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:07:107 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:10:08:108 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:08:108 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:08:108 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:10:10:1010 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:10:49:1049 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:10:49:1049 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:10:49:1049 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:10:49:1049 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:10:49:1049 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:10:49:1049 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:10:53:1053 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:10:53:1053 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:10:53:1053 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:10:54:1054 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:10:54:1054 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:10:54:1054 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:11:32:1132 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:11:32:1132 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:11:32:1132 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:11:32:1132 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:11:32:1132 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:11:32:1132 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:11:44:1144 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:11:44:1144 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:11:44:1144 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:11:45:1145 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:11:45:1145 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:11:45:1145 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:11:55:1155 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:11:55:1155 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:11:55:1155 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:11:55:1155 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:11:55:1155 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:11:55:1155 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:11:59:1159 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:11:59:1159 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:11:59:1159 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:11:59:1159 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:12:00:120 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:12:00:120 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:12:01:121 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:12:01:121 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:12:01:121 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:12:02:122 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:12:02:122 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:12:02:122 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:12:10:1210 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:12:10:1210 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:12:10:1210 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:12:10:1210 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:12:11:1211 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:12:11:1211 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:12:18:1218 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:12:18:1218 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:12:21:1221 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:18:33:1833 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:18:33:1833 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:18:33:1833 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:18:33:1833 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:18:34:1834 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:18:34:1834 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:18:37:1837 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:18:37:1837 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:18:39:1839 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:19:07:197 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:19:07:197 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:19:07:197 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:19:07:197 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:19:07:197 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:19:07:197 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:19:20:1920 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:19:43:1943 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:19:43:1943 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:19:45:1945 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:19:45:1945 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:19:49:1949 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:20:21:2021 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:20:21:2021 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:20:21:2021 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:20:22:2022 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:20:22:2022 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:20:22:2022 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:20:26:2026 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:20:26:2026 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:20:26:2026 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:20:26:2026 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:20:27:2027 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:20:27:2027 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:20:29:2029 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:20:29:2029 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:20:29:2029 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:20:29:2029 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:20:29:2029 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:20:29:2029 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:20:35:2035 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:20:35:2035 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:20:35:2035 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:20:35:2035 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:20:35:2035 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:20:35:2035 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:20:36:2036 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:20:36:2036 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:20:36:2036 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:20:36:2036 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:20:36:2036 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:20:36:2036 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:20:38:2038 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:20:38:2038 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:20:38:2038 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:20:38:2038 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:20:39:2039 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:20:39:2039 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:20:57:2057 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:20:57:2057 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:20:59:2059 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:24:27:2427 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:24:27:2427 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:24:27:2427 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:24:28:2428 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:24:28:2428 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:24:28:2428 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:24:29:2429 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:24:29:2429 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:24:29:2429 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:24:30:2430 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:24:30:2430 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:24:30:2430 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:24:32:2432 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:24:32:2432 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:24:32:2432 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:24:32:2432 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:24:32:2432 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:24:32:2432 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:24:34:2434 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:24:34:2434 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:24:34:2434 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:24:34:2434 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:24:34:2434 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:24:34:2434 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:24:39:2439 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:24:39:2439 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:24:39:2439 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:24:39:2439 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:24:39:2439 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:24:39:2439 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:26:13:2613 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:26:13:2613 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:26:13:2613 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:26:13:2613 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:26:13:2613 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:26:13:2613 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:27:46:2746 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:27:46:2746 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:27:46:2746 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:27:47:2747 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:27:47:2747 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:27:47:2747 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:30:31:3031 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:30:31:3031 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:30:33:3033 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:31:33:3133 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:32:50:3250 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:32:50:3250 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:32:50:3250 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:32:50:3250 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:32:50:3250 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:32:50:3250 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:32:57:3257 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:32:57:3257 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:32:57:3257 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:32:57:3257 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:32:57:3257 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:32:57:3257 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:33:08:338 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:33:08:338 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:33:09:339 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:33:09:339 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-06 23:33:09:339 [32minfo[39m: [32mNew cart created for user:[39m
+2024-03-06 23:33:09:339 [34mdebug[39m: [34mProduct added to the cart for user:[39m
+2024-03-06 23:33:30:3330 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:33:30:3330 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:34:13:3413 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:34:13:3413 [34mdebug[39m: [34mUser in session:[39m
+2024-03-06 23:34:15:3415 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:34:15:3415 [34mdebug[39m: [34mProduct added to the cart for user:[39m
+2024-03-06 23:34:17:3417 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:34:17:3417 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:42:07:427 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:42:07:427 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:42:07:427 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:42:08:428 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:42:08:428 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:42:08:428 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:42:09:429 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:42:09:429 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:42:09:429 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:42:09:429 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:42:10:4210 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:42:10:4210 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:42:10:4210 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:42:10:4210 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:42:11:4211 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:42:11:4211 [34mdebug[39m: [34m{[39m
+[34m  _id: '29c87425-1188-44aa-bd6b-b61c32c3b601',[39m
+[34m  email: 'lucianomostaccio@gmail.com',[39m
+[34m  password: '$2b$10$ammKr9bHysMexV0pK5/Rpu.7wOHF47OKT62ByfrdH5hIGPZzK9cZy',[39m
+[34m  first_name: 'Luciano Damian',[39m
+[34m  last_name: 'Mostaccio',[39m
+[34m  age: 29,[39m
+[34m  profile_picture: 'src\\static\\imgs\\1709506299694-Captura de pantalla 2023-06-15 194246.png',[39m
+[34m  orders: [][39m
+[34m}[39m
+2024-03-06 23:59:51:5951 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:59:51:5951 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:59:51:5951 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:59:51:5951 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:59:51:5951 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:59:51:5951 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-06 23:59:53:5953 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-06 23:59:53:5953 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-06 23:59:53:5953 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-06 23:59:53:5953 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-06 23:59:53:5953 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-06 23:59:53:5953 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-07 00:00:20:020 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-07 00:00:20:020 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-07 00:00:20:020 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-07 00:00:20:020 [32minfo[39m: [32musing mongodb persistence - orders[39m
+2024-03-07 00:00:20:020 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-07 00:00:20:020 [32minfo[39m: [32mServer listening in port: 8080[39m

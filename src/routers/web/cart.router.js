@@ -8,7 +8,7 @@ webCartsRouter.get("/cart", onlyLoggedInWeb, async (req, res) => {
   // Load carts directly, or change it to use a database
   const daoCarts = getDaoCarts();
   const productsInCart = await daoCarts.readMany();
-  console.log("products in cart:", productsInCart)
+  console.log("products in cart:", JSON.stringify(productsInCart, null, 2));
   res.render("cart.handlebars", {
     welcomeMessage: "Welcome",
     ...req.session["user"],
