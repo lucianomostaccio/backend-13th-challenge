@@ -1,5 +1,5 @@
 // import { Cart } from "../../models/carts.model.js";
-import { getDaoCarts } from "../daos/carts/carts.dao.js";
+import { getDaoCarts } from "../daos/carts/cart.dao.js";
 import Logger from "../utils/logger.js";
 
 const cartsDao = getDaoCarts();
@@ -31,35 +31,39 @@ class CartsService {
   }
 
   // Add product to a specific cart
-  async addProductToCart(cartId, productId) {
-    const cart = await cartsDao.readOne({ _id: cartId });
+  async addProductToCart(userId, productId) {
+    // First, find the user's cart by userId
+    let cart = await cartsDao.readOne({ userId });
+    console.log("cart already exists for user:", cart);
 
     if (!cart) {
-      Logger.error("Cart not found to add the product");
-      return null;
+    cart = await cartsDao.create({ userId, products: [] });
+    console.log("New cart created for user:", userId);
+    Logger.info("New cart created for user:", userId);
     }
 
+    // Find if the product already exists in the cart
     const productIndex = cart.products.findIndex(
       (product) => product._id === productId
     );
 
     if (productIndex !== -1) {
-      // If the product already exists in the cart, increment the quantity
+      // The product already exists in the cart, increment its quantity
       cart.products[productIndex].quantity += 1;
     } else {
-      // If the product is not in the cart (new), add it with initial quantity=1
-      cart.products.push({
-        _id: productId,
-        quantity: 1,
-      });
+      // The product is new to the cart, add it with an initial quantity of 1
+      cart.products.push({ _id: productId, quantity: 1 });
     }
 
-    await cartsDao.updateOne({ _id: cartId }, cart);
-    Logger.debug("Product added to the cart:", cart);
+    // Update the cart in the database
+    await cartsDao.updateOne(
+      { _id: cart._id },
+      { $set: { products: cart.products } }
+    );
+    Logger.debug("Product added to the cart for user:", userId);
+
     return cart;
   }
-
-  // Rest of the methods of CartsService using cartsDao
 }
 
 export const cartsService = new CartsService();

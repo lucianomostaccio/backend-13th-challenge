@@ -1,13 +1,9 @@
 import fs from "fs/promises";
-import { join } from "path";
-import Logger from "../../../utils/logger";
-
-const PATH_CARTS_FILES = "../../../db/carts.json";
-const filePath = join(__dirname, PATH_CARTS_FILES);
+import Logger from "../../../utils/logger.js";
 
 export class CartDaoFiles {
-  constructor() {
-    this.path = filePath;
+  constructor(path) {
+    this.path = path;
   }
 
   async #readCarts() {

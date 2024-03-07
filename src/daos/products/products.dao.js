@@ -18,7 +18,6 @@ if (EXECUTION_MODE === "online") {
 } else {
   daoProducts = new ProductsDaoFiles(PATH_PRODUCTS_FILES);
   Logger.info("using files persistence - products");
-  // getDaoProducts = getDaoFiles;
 }
 
 export function getDaoProducts() {

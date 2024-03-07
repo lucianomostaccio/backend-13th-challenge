@@ -9,6 +9,7 @@ webProductsRouter.get("/products", onlyLoggedInWeb, async (req, res) => {
   // Load products directly, or change it to use a database
   const daoProducts = getDaoProducts();
   const products = await daoProducts.readMany();
+  console.log("products:", products)
   Logger.debug("User in session:", req.session["user"]);
   res.render("products.handlebars", {
     welcomeMessage: "Welcome",

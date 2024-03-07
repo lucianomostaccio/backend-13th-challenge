@@ -12,7 +12,7 @@
   {{#each products}}
     <li class="productTitle">
       {{title}} - ${{price}}
-      <form action="/products/{{id}}/add-to-cart" method="POST">
+      <form class="addToCartButton" action="/products/{{_id}}/add-to-cart" method="POST">
         <button type="submit">Add to Cart</button>
       </form>
     </li>

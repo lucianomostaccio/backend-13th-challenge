@@ -9,10 +9,10 @@
 <h1 class="pageTitle">Products in cart</h1>
 
 <ul class="productList">
-  {{#each products}}
+  {{#each productsInCart}}
     <li class="productTitle">
       {{title}} - ${{price}}
-      <form action="/products/{{id}}/add-to-cart" method="POST">
+      <form action="/products/{{_id}}/add-to-cart" method="POST">
         <button type="submit">Remove from Cart</button>
       </form>
     </li>
