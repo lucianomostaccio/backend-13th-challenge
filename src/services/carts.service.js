@@ -60,7 +60,7 @@ class CartsService {
       { _id: cart._id },
       { $set: { products: cart.products } }
     );
-    Logger.debug("Product added to the cart for user:", userId);
+    Logger.debug("Product added to the cart")
 
     return cart;
   }

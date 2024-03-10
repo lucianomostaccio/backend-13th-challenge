@@ -1,13 +1,12 @@
 import { Schema } from "mongoose";
-import { randomUUID } from "node:crypto";
 
 export const cartSchema = new Schema(
   {
-    _id: { type: String, default: randomUUID },
-    userId: { type: String, ref: "User", required: true },
+    _id: { type: String},
+    userId: { type: String, ref: "usersSchema", required: true },
     products: [
       {
-        _id: { type: String, default: randomUUID },
+        _id: { type: String, ref: "productsSchema"},
         quantity: { type: Number, required: true },
       },
     ],

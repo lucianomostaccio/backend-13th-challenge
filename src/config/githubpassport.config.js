@@ -20,7 +20,7 @@ const initializeGithubPassport = () => {
       },
       async (accessToken, refreshToken, profile, done) => {
         try {
-          Logger.debug(profile);
+          Logger.debug("github profile:",profile);
           // console.log(profile);
           const usersDao = getDaoUsers();
           const user = await usersDao.readOne({ email: profile._json.email });

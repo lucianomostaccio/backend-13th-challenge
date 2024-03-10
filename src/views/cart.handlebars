@@ -9,10 +9,16 @@
 <h1 class="pageTitle">Products in cart</h1>
 
 <ul class="productList">
-  {{#each productsInCart}}
+  {{#each productsInCartRaw}}
     <li class="productTitle">
-      {{title}} - ${{price}}
-      <form class="removeFromCartButton" action="/products/{{_id}}/remove-from-cart" method="POST">
+      {{_id}}
+      {{title}}
+      - ${{price}}
+      <form
+        class="removeFromCartButton"
+        action="/products/{{_id}}/remove-from-cart"
+        method="POST"
+      >
         <button type="submit">Remove from Cart</button>
       </form>
     </li>

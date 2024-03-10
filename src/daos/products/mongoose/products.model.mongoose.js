@@ -1,8 +1,6 @@
 import { Schema } from 'mongoose'
 import { randomUUID } from "node:crypto";
-// import mongoosePaginate from "mongoose-paginate-v2";
 
-// const productCollection = "products";
 
 export const productsSchema = new Schema(
   {
@@ -23,9 +21,3 @@ export const productsSchema = new Schema(
     versionKey: false,
   }
 );
-
-// productsSchema.plugin(mongoosePaginate);
-
-// const ProductModel = mongoose.model(productCollection, productsSchema);
-
-// export default = ProductModel;

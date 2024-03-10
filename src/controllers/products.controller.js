@@ -1,4 +1,6 @@
+import { getDaoUsers } from "../daos/users/users.dao.js";
 import { cartsService } from "../services/carts.service.js";
+import { usersService } from "../services/index.js";
 import { productsService } from "../services/products.service.js";
 
 export async function getController(req, res, next) {
@@ -23,10 +25,9 @@ export async function postController(req, res, next) {
 export async function addToCartController(req, res, next) {
   const { pid } = req.params;
   console.log("product id obtained in controller", pid)
-  const userId = req.session.user._id;
-  console.log("user id obtained in controller", userId)
-
+  
   try {
+    const userId = await usersService.getUserByEmail(req.session.user.email)
     await cartsService.addProductToCart(userId, pid);
     res.status(200).json({ message: 'Product added to cart successfully' });
   } catch (error) {

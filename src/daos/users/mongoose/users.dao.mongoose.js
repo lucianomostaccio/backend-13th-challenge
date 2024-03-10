@@ -19,7 +19,6 @@ export class UsersDaoMongoose {
     const userDoc = await this.usersModel
       .findOne(email)
       .lean();
-      Logger.debug(userDoc)
   
     // Populate orders if necessary
     // if (userDoc) {

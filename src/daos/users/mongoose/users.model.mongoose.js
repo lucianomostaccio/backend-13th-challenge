@@ -3,8 +3,6 @@ import { randomUUID } from "node:crypto";
 
 import { DEFAULT_USER_AVATAR_PATH } from "../../../config/config.js";
 
-// const collection = "users";
-
 export const usersSchema = new Schema(
   {
     _id: { type: String, default: randomUUID },
@@ -29,5 +27,3 @@ export const usersSchema = new Schema(
     versionKey: false,
   }
 );
-
-// export const usersManager = mongoose.model(collection, schema);

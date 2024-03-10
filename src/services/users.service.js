@@ -28,6 +28,7 @@ export class UsersService {
   async getUserByEmail(email) {
     try {
       const user = await this.usersDao.readOne({ email });
+      console.log("user obtained by getUserByEmail in users.service:",user)
       if (!user) {
         throw new Error("User not found");
       }
@@ -42,6 +43,7 @@ export class UsersService {
   async getUserById(_id) {
     try {
       const user = await this.usersDao.readOne({ _id });
+      console.log("user obtained by getUserById in users.service:",user)
       if (!user) {
         throw new Error("User not found");
       }

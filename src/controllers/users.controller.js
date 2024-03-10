@@ -6,6 +6,7 @@ import Logger from "../utils/logger.js";
 export async function getController(req, res, next) {
   try {
     const user = await usersService.getUserByEmail(req.user.email);
+    console.log("user found by user get controller:", user);
     res.status(200).json({ status: "success", payload: user });
   } catch (error) {
     Logger.error("Error in getController:", error);
@@ -52,28 +53,7 @@ export async function putController(req, res, next) {
     res.status(400).json({ status: "error", message: error.message });
   }
 }
-//   try {
-//     const userId = req.params.userId;
 
-//     // 1. Check for Password Change Intent:
-//     if (req.body.password) {
-//       // Handle password change with specific logic
-//       const updatedUser = await usersService.updatePassword(
-//         userId,
-//         req.body.password
-//       );
-//       res.updated(updatedUser);
-//     } else {
-//       // 2. General Profile Updates:
-//       const updatedUser = await usersService.updateUser(userId, req.body);
-//       res.updated(updatedUser);
-//     }
-//   } catch (error) {
-//     next(error);
-//   }
-// }
-
-// remove
 export async function deleteController(req, res, next) {
   try {
     await usersService.deleteUser(req.params.id);

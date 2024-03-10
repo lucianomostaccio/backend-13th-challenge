@@ -16,18 +16,12 @@ export class CartDaoMongoose {
   }
 
   async readOne(query) {
-    // Adjust query to use userId if provided
     const cart = await this.cartModel.findOne(query).lean();
     if (!cart) {
       Logger.info("Cart not found with query:", query);
       return null;
     }
     return toPOJO(cart);
-  }
-
-  async readMany(query) {
-    // Adjust query to use userId if provided
-    return toPOJO(await this.cartModel.find(query).lean());
   }
 
   async updateOne(query, data) {
