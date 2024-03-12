@@ -16,7 +16,17 @@ export class CartDaoMongoose {
   }
 
   async readOne(query) {
-    const cart = await this.cartModel.findOne(query).lean();
+    const cart = await this.cartModel
+      .findOne(query)
+      .populate({
+        path: 'products.productId', 
+        select: 'title price description' 
+      })
+      .lean();
+    console.log(
+      "cart found by cartDaoMongoose:",
+      JSON.stringify(cart, null, 2)
+    );
     if (!cart) {
       Logger.info("Cart not found with query:", query);
       return null;
@@ -56,7 +66,9 @@ export class CartDaoMongoose {
     }
 
     // Update cart's products array
-    const productIndex = cart.products.findIndex((product) => product._id === productId);
+    const productIndex = cart.products.findIndex(
+      (product) => product._id === productId
+    );
     if (productIndex !== -1) {
       // Product already in cart, update quantity
       cart.products[productIndex].quantity += quantity;
@@ -67,7 +79,11 @@ export class CartDaoMongoose {
 
     // Update the cart with the new products array
     const updatedCart = await this.cartModel
-      .findOneAndUpdate({ userId }, { $set: { products: cart.products } }, { new: true })
+      .findOneAndUpdate(
+        { userId },
+        { $set: { products: cart.products } },
+        { new: true }
+      )
       .lean();
 
     if (!updatedCart) {

@@ -4,8 +4,6 @@ import { randomUUID } from "node:crypto";
 
 export const productsSchema = new Schema(
   {
-    // Mongoose assigns ids automatically
-    // id: { type: Number},
     _id: { type: String, default: randomUUID },
     title: { type: String, required: true },
     description: { type: String },

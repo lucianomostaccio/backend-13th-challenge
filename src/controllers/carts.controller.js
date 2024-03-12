@@ -2,8 +2,8 @@ import { cartsService } from "../services/carts.service.js";
 
 export async function getController(req, res, next) {
   try {
-    // const cart = await cartsService.getCarts()
-    const cart = await cartsService.getCart({});
+    const cart = await cartsService.readOne();
+    console.log("cart", res.result(cart));
     res.result(cart);
   } catch (error) {
     next(error);

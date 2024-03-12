@@ -12,18 +12,10 @@ export class UsersDaoMongoose {
     return toPOJO(user);
   }
 
-  //   async readOne(query) {
-  //     return toPOJO(await this.usersModel.findOne(query).lean());}
-
   async readOne(email) {
     const userDoc = await this.usersModel
       .findOne(email)
       .lean();
-  
-    // Populate orders if necessary
-    // if (userDoc) {
-    //   await userDoc.populate("orders").execPopulate(); // Populate the orders
-    // }
   
     return toPOJO(userDoc); // Apply toPOJO and return in a single step
   }

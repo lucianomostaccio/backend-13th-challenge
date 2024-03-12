@@ -4095,3 +4095,653 @@
 2024-03-07 21:25:20:2520 [32minfo[39m: [32musing mongodb persistence - orders[39m
 2024-03-07 21:25:20:2520 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
 2024-03-07 21:25:20:2520 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:30:19:3019 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:30:19:3019 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:30:19:3019 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:30:20:3020 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:30:20:3020 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:30:34:3034 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:30:34:3034 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:30:34:3034 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:30:35:3035 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:30:35:3035 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:31:03:313 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:33:34:3334 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:33:35:3335 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:33:35:3335 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:33:35:3335 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:33:35:3335 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:33:40:3340 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:33:40:3340 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:33:40:3340 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:33:40:3340 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:33:40:3340 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:33:48:3348 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:33:48:3348 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:33:48:3348 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:33:48:3348 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:33:48:3348 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:33:55:3355 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:33:55:3355 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:33:55:3355 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:33:55:3355 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:33:55:3355 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:33:58:3358 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:33:58:3358 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:33:58:3358 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:33:58:3358 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:33:58:3358 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:34:18:3418 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:34:18:3418 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:34:18:3418 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:34:19:3419 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:34:19:3419 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:34:31:3431 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:34:31:3431 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:34:31:3431 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:34:32:3432 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:34:32:3432 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:35:40:3540 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:36:04:364 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:36:04:364 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:36:04:364 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:36:05:365 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:36:05:365 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:36:07:367 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:36:30:3630 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:36:30:3630 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:36:30:3630 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:36:31:3631 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:36:31:3631 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:36:32:3632 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:38:13:3813 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:38:13:3813 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:38:13:3813 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:38:14:3814 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:38:14:3814 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:38:14:3814 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:38:51:3851 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:38:51:3851 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:38:51:3851 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:38:51:3851 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:38:51:3851 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:38:55:3855 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:38:55:3855 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:38:55:3855 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:38:55:3855 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:38:55:3855 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:39:00:390 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:39:00:390 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:39:00:390 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:39:00:390 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:39:00:390 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:39:02:392 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:39:31:3931 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:39:31:3931 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:39:31:3931 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:39:31:3931 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:39:31:3931 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:40:30:4030 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:40:30:4030 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:40:30:4030 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:40:30:4030 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:40:30:4030 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:40:32:4032 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:41:39:4139 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:41:39:4139 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:41:39:4139 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:41:39:4139 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:41:39:4139 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:41:47:4147 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:42:42:4242 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:42:42:4242 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:42:42:4242 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:42:42:4242 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:42:42:4242 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:42:53:4253 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:42:53:4253 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:42:53:4253 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:42:53:4253 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:42:53:4253 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:42:54:4254 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:44:54:4454 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:44:54:4454 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:44:54:4454 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:44:55:4455 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:44:55:4455 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:44:56:4456 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 20:44:56:4456 [32minfo[39m: [32mNew cart created for user:[39m
+2024-03-11 20:44:56:4456 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 20:47:55:4755 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 20:49:27:4927 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:49:27:4927 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:49:27:4927 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:49:27:4927 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:49:27:4927 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:49:34:4934 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:49:34:4934 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:49:34:4934 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:49:35:4935 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:49:35:4935 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:49:40:4940 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:49:40:4940 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:49:40:4940 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:49:41:4941 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:49:41:4941 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:49:43:4943 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:49:43:4943 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:49:43:4943 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:49:43:4943 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:49:43:4943 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 20:49:45:4945 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 20:49:45:4945 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 20:49:45:4945 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 20:49:45:4945 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 20:49:45:4945 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:23:07:237 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:23:07:237 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:23:07:237 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:23:07:237 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:23:07:237 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:26:05:265 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:26:07:267 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:26:07:267 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:26:07:267 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:26:08:268 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:26:08:268 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:26:18:2618 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:26:18:2618 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:26:18:2618 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:26:19:2619 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:26:19:2619 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:26:21:2621 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:26:21:2621 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:26:21:2621 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:26:21:2621 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:26:21:2621 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:26:23:2623 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:26:23:2623 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:26:23:2623 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:26:24:2624 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:26:24:2624 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:26:27:2627 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:26:27:2627 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:26:27:2627 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:26:27:2627 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:26:27:2627 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:33:47:3347 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:33:47:3347 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:33:47:3347 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:33:48:3348 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:33:48:3348 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:49:11:4911 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:49:11:4911 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:49:11:4911 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:49:11:4911 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:49:11:4911 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:51:39:5139 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:51:39:5139 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:51:39:5139 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:51:40:5140 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:51:40:5140 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:51:45:5145 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:51:45:5145 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:51:45:5145 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:51:45:5145 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:51:45:5145 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:51:47:5147 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 22:51:56:5156 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 22:51:56:5156 [32minfo[39m: [32mNew cart created for user:[39m
+2024-03-11 22:52:15:5215 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:52:15:5215 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:52:15:5215 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:52:15:5215 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:52:15:5215 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:52:18:5218 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 22:52:49:5249 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 22:54:13:5413 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:54:13:5413 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:54:13:5413 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:54:14:5414 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:54:14:5414 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:54:17:5417 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:54:17:5417 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:54:17:5417 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:54:18:5418 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:54:18:5418 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:56:06:566 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:56:06:566 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:56:06:566 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:56:07:567 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:56:07:567 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:59:11:5911 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:59:11:5911 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:59:11:5911 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:59:11:5911 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:59:11:5911 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 22:59:16:5916 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 22:59:16:5916 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 22:59:16:5916 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 22:59:17:5917 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 22:59:17:5917 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:00:48:048 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:00:48:048 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:00:48:048 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:00:48:048 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:00:48:048 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:00:50:050 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:00:50:050 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:00:50:050 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:00:50:050 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:00:50:050 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:00:53:053 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:00:53:053 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:00:53:053 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:00:53:053 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:00:53:053 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:01:12:112 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:01:12:112 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:01:12:112 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:01:13:113 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:01:13:113 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:01:15:115 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:01:15:115 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:01:15:115 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:01:16:116 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:01:16:116 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:01:20:120 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:01:20:120 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:01:20:120 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:01:21:121 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:01:21:121 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:01:23:123 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:01:23:123 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:01:23:123 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:01:24:124 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:01:24:124 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:01:49:149 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:01:49:149 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:01:49:149 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:01:50:150 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:01:50:150 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:01:56:156 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:01:56:156 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:01:56:156 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:01:56:156 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:01:56:156 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:01:58:158 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:01:58:158 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:01:58:158 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:01:59:159 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:01:59:159 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:02:14:214 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:02:14:214 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:02:14:214 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:02:14:214 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:02:14:214 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:02:21:221 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:02:21:221 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:02:21:221 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:02:22:222 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:02:22:222 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:02:25:225 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:02:25:225 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:02:25:225 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:02:25:225 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:02:25:225 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:02:33:233 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:02:33:233 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:02:33:233 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:02:33:233 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:02:33:233 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:03:02:32 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:03:11:311 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:03:11:311 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:03:11:311 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:03:11:311 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:03:11:311 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:03:11:311 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:03:41:341 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:03:41:341 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:03:41:341 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:03:42:342 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:03:42:342 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:03:42:342 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:03:42:342 [32minfo[39m: [32mNew cart created[39m
+2024-03-11 23:03:42:342 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 23:04:04:44 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 23:04:51:451 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 23:05:31:531 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:05:31:531 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:05:31:531 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:05:32:532 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:05:32:532 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:06:45:645 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:06:45:645 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:06:45:645 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:06:45:645 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:06:45:645 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:06:52:652 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:06:52:652 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:06:52:652 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:06:53:653 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:06:53:653 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:07:07:77 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:07:07:77 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:07:07:77 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:07:07:77 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:07:07:77 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:07:21:721 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:07:21:721 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:07:21:721 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:07:21:721 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:07:21:721 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:07:30:730 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:07:30:730 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:07:30:730 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:07:30:730 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:07:30:730 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:07:52:752 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:07:52:752 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:07:52:752 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:07:52:752 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:07:52:752 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:07:59:759 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:07:59:759 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:07:59:759 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:08:00:80 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:08:00:80 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:09:43:943 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:09:43:943 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:09:43:943 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:09:44:944 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:09:44:944 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:09:47:947 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:09:47:947 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:09:47:947 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:09:47:947 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:09:47:947 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:09:49:949 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:09:49:949 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:09:49:949 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:09:49:949 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:09:49:949 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:09:51:951 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:09:51:951 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:09:51:951 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:09:52:952 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:09:52:952 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:10:02:102 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:10:02:102 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:10:02:102 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:10:02:102 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:10:02:102 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:10:08:108 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:10:08:108 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:10:08:108 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:10:09:109 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:10:09:109 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:12:32:1232 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:12:32:1232 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:12:32:1232 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:12:32:1232 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:12:32:1232 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:12:48:1248 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:12:48:1248 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:12:48:1248 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:12:49:1249 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:12:49:1249 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:13:05:135 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:13:05:135 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:13:05:135 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:13:05:135 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:13:05:135 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:13:06:136 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:13:06:136 [32minfo[39m: [32mNew cart created[39m
+2024-03-11 23:16:19:1619 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:16:19:1619 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:16:19:1619 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:16:19:1619 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:16:19:1619 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:16:22:1622 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:16:22:1622 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:16:22:1622 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:16:22:1622 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:16:22:1622 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:16:41:1641 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:16:41:1641 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:16:41:1641 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:16:41:1641 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:16:41:1641 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:16:51:1651 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:16:51:1651 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:16:51:1651 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:16:52:1652 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:16:52:1652 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:16:59:1659 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:16:59:1659 [32minfo[39m: [32mNew cart created[39m
+2024-03-11 23:16:59:1659 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 23:17:55:1755 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:17:55:1755 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:17:55:1755 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:17:56:1756 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:17:56:1756 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:18:05:185 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:18:05:185 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:18:05:185 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:18:06:186 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:18:06:186 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:18:24:1824 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:18:24:1824 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:18:24:1824 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:18:25:1825 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:18:25:1825 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:18:27:1827 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:18:27:1827 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:18:27:1827 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:18:28:1828 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:18:28:1828 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:18:32:1832 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:18:32:1832 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:18:32:1832 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:18:33:1833 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:18:33:1833 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:18:40:1840 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:18:40:1840 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:18:40:1840 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:18:40:1840 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:18:40:1840 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:18:43:1843 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:18:43:1843 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:18:43:1843 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:18:43:1843 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:18:43:1843 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:18:49:1849 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:18:49:1849 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:18:49:1849 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:18:49:1849 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:18:49:1849 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:19:42:1942 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:19:42:1942 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:19:42:1942 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:19:42:1942 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:19:42:1942 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:19:49:1949 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:19:49:1949 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:19:49:1949 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:19:49:1949 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:19:49:1949 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:19:55:1955 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:20:01:201 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:20:01:201 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:20:01:201 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:20:01:201 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:20:01:201 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:20:02:202 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:20:02:202 [32minfo[39m: [32mNew cart created[39m
+2024-03-11 23:20:47:2047 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:20:47:2047 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:20:47:2047 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:20:47:2047 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:20:47:2047 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:21:09:219 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:21:09:219 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:21:09:219 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:21:09:219 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:21:09:219 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:21:23:2123 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:21:23:2123 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:21:23:2123 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:21:24:2124 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:21:24:2124 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:21:47:2147 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:21:51:2151 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:21:51:2151 [32minfo[39m: [32mNew cart created[39m
+2024-03-11 23:21:51:2151 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 23:23:42:2342 [34mdebug[39m: [34mProduct added to the cart[39m
+2024-03-11 23:25:39:2539 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:25:39:2539 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:25:39:2539 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:25:39:2539 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:25:39:2539 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:26:01:261 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:26:22:2622 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:26:22:2622 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:26:22:2622 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:26:23:2623 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:26:23:2623 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:26:26:2626 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:26:26:2626 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:26:26:2626 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:26:27:2627 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:26:27:2627 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:26:29:2629 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:26:29:2629 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:26:29:2629 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:26:29:2629 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:26:29:2629 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:29:05:295 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:29:05:295 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:29:05:295 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:29:06:296 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:29:06:296 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:29:08:298 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:29:08:298 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:29:08:298 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:29:09:299 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:29:09:299 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:29:27:2927 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:34:57:3457 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:34:57:3457 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:34:57:3457 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:34:57:3457 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:34:57:3457 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:35:06:356 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:35:11:3511 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:35:11:3511 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:35:11:3511 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:35:11:3511 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:35:11:3511 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:35:11:3511 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:36:45:3645 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:36:45:3645 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:36:45:3645 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:36:46:3646 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:36:46:3646 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:36:53:3653 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:36:53:3653 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:36:53:3653 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:36:54:3654 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:36:54:3654 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:37:02:372 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:37:04:374 [32minfo[39m: [32mCart not found with query:[39m
+2024-03-11 23:38:26:3826 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:38:26:3826 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:38:26:3826 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:38:26:3826 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:38:26:3826 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:39:09:399 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:39:09:399 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:39:09:399 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:39:09:399 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:39:09:399 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:39:15:3915 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:39:15:3915 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:39:15:3915 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:39:15:3915 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:39:15:3915 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:39:17:3917 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:39:17:3917 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:39:17:3917 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:39:18:3918 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:39:18:3918 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:39:37:3937 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:39:37:3937 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:39:37:3937 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:39:38:3938 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:39:38:3938 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:40:19:4019 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:40:19:4019 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:40:19:4019 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:40:19:4019 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:40:19:4019 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:40:22:4022 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:40:22:4022 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:40:22:4022 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:40:22:4022 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:40:22:4022 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:40:28:4028 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:40:28:4028 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:40:28:4028 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:40:28:4028 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:40:28:4028 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:40:38:4038 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:40:38:4038 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:40:38:4038 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:40:38:4038 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:40:38:4038 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:40:48:4048 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:40:48:4048 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:40:48:4048 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:40:48:4048 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:40:48:4048 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:40:56:4056 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:40:56:4056 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:40:56:4056 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:40:57:4057 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:40:57:4057 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:41:01:411 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:41:01:411 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:41:01:411 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:41:02:412 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:41:02:412 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:41:27:4127 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:41:27:4127 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:41:27:4127 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:41:27:4127 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:41:27:4127 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:41:31:4131 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:41:31:4131 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:41:31:4131 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:41:32:4132 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:41:32:4132 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:41:34:4134 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:41:34:4134 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:41:34:4134 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:41:35:4135 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:41:35:4135 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:41:36:4136 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:41:36:4136 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:41:36:4136 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:41:37:4137 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:41:37:4137 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:41:43:4143 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:41:43:4143 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:41:43:4143 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:41:44:4144 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:41:44:4144 [32minfo[39m: [32mServer listening in port: 8080[39m
+2024-03-11 23:41:48:4148 [32minfo[39m: [32musing mongodb persistence - products[39m
+2024-03-11 23:41:48:4148 [32minfo[39m: [32musing mongodb persistence - users[39m
+2024-03-11 23:41:48:4148 [32minfo[39m: [32musing mongodb persistence - carts[39m
+2024-03-11 23:41:48:4148 [32minfo[39m: [32mconnected to DB: "mongodb://127.0.0.1/luciano_10"[39m
+2024-03-11 23:41:48:4148 [32minfo[39m: [32mServer listening in port: 8080[39m

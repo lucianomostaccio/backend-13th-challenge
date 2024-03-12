@@ -7,16 +7,17 @@ export const webCartsRouter = Router();
 webCartsRouter.get("/cart", onlyLoggedInWeb, async (req, res) => {
   // Load carts directly, or change it to use a database
   const daoCarts = getDaoCarts();
-  const productsInCartRaw = await daoCarts.readOne();
-  // const productsInCart = JSON.stringify(productsInCartRaw);
-  console.log("products in cart:", JSON.stringify(productsInCartRaw, null, 2));
+  const productsInCart = await daoCarts.readOne();
+
+  const user = req.session["user"]
+  // console.log("user in session:", user)
   // console.log("products in cart with json stringify:", productsInCart);
+  console.log(JSON.stringify(productsInCart, null, 2));
   res.render("cart.handlebars", {
     welcomeMessage: "Welcome",
-    ...req.session["user"],
+    user,
     pageTitle: "Cart",
-    // productsInCart,
-    productsInCartRaw,
+    productsInCart,
     style: "cart.css",
   });
 });
