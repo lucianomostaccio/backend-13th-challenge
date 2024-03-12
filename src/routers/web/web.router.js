@@ -4,6 +4,10 @@ import { webUsersRouter } from "./users.router.js";
 import { sessionsRouter } from "./sessions.router.js";
 import Logger from "../../utils/logger.js";
 import { webCartsRouter } from "./cart.router.js";
+import swaggerJsdoc from 'swagger-jsdoc'
+import swaggerUiExpress from 'swagger-ui-express'
+import { SWAGGER_CONFIG } from '../../config/config.js'
+
 
 export const webRouter = Router();
 
@@ -22,3 +26,9 @@ webRouter.get("/", (req, res) => {
     res.redirect("/login"); // If the user is not logged in, redirect to /login
   }
 });
+
+const spec = swaggerJsdoc(SWAGGER_CONFIG)
+webRouter.use('/api-docs',
+  swaggerUiExpress.serve,
+  swaggerUiExpress.setup(spec)
+)

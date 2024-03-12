@@ -1,0 +1,10 @@
+/cart:
+  get:
+    summary: Gets the user's cart
+    responses:
+      "200":
+        description: The user's cart
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Cart"

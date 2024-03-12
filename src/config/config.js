@@ -1,4 +1,4 @@
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 dotenv.config();
 
 export const PORT = process.env.PORT;
@@ -14,3 +14,15 @@ export const DEFAULT_USER_AVATAR_PATH = process.env.DEFAULT_USER_AVATAR_PATH;
 
 export const EXECUTION_MODE = "online";
 // export const EXECUTION_MODE = "offline;"
+
+export const SWAGGER_CONFIG = {
+  definition: {
+    openapi: "3.0.1",
+    info: {
+      version: "1",
+      title: "Swagger doc final project",
+      description: "Swagger documentation for my final project",
+    },
+  },
+  apis: ["./docs/**/*.yaml"],
+};

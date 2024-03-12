@@ -1,0 +1,9 @@
+Cart:
+  type: object
+  properties:
+    id:
+      type: string
+    products:
+      type: array
+      items:
+        $ref: "#/components/schemas/Product"
