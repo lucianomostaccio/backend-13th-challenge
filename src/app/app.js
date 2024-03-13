@@ -11,7 +11,7 @@ import { dirname } from "path";
 import passport from "passport";
 import initializePassport from "../config/passport.config.js";
 import initializeGithubPassport from "../config/githubpassport.config.js";
-import errorMiddleware from '../middlewares/errorMiddleware.js';
+import errorMiddleware from "../middlewares/errorMiddleware.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -20,7 +20,19 @@ const __dirname = dirname(__filename);
 export const app = express();
 
 // handlebars engine & templates:
-app.engine("handlebars", engine());
+app.engine(
+  "handlebars",
+  engine({
+    helpers: {
+      formatPrice: (price) => {
+        return new Intl.NumberFormat("es-AR", {
+          style: "currency",
+          currency: "ARS",
+        }).format(price);
+      },
+    },
+  })
+);
 const appViewsPath = path.join(__dirname, "..", "views");
 app.set("views", appViewsPath);
 

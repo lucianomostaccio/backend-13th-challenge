@@ -2,7 +2,7 @@
 
 <section class="profileSection">
   <ul class="userProfile" id="products-home">
-    <li class="profileItem">{{first_name}}</li>
+    <li class="profileItem">{{user.first_name}}</li>
   </ul>
 </section>
 
@@ -12,11 +12,12 @@
   {{#each productsInCart.products}}
     <li class="productTitle">
       {{productId.title}}
-      - ${{productId.price}}
+      -
+      {{formatPrice productId.price}}
       -
       {{productId.description}}
       - quantity:{{quantity}}
-      units 
+      units
       <form
         class="removeFromCartButton"
         action="/products/{{productId._id}}/remove-from-cart"
@@ -27,5 +28,10 @@
     </li>
   {{/each}}
 </ul>
+
+<h2>Total: {{formatPrice total}}</h2>
+
+<button type="submit">Clear cart</button>
+<button type="submit">Buy cart</button>
 
 <script src="/js/cart.js"></script>
