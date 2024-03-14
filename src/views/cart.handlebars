@@ -21,9 +21,14 @@
       <form
         class="removeFromCartButton"
         action="/products/{{productId._id}}/remove-from-cart"
-        method="POST"
+        method="PUT"
       >
-        <button type="submit">Remove from Cart</button>
+        <form
+          class="removeFromCartButton"
+          onsubmit="removeProductFromCart(event, '{{../cart._id}}', '{{productId._id}}')"
+        >
+          <button type="submit">Remove from Cart</button>
+        </form>
       </form>
     </li>
   {{/each}}

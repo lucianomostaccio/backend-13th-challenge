@@ -19,8 +19,8 @@ export class CartDaoMongoose {
     const cart = await this.cartModel
       .findOne(query)
       .populate({
-        path: 'products.productId', 
-        select: 'title price description' 
+        path: "products.productId",
+        select: "title price description",
       })
       .lean();
     console.log(

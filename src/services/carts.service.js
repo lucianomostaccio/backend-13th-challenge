@@ -12,6 +12,16 @@ class CartsService {
     return savedCart;
   }
 
+  
+  async readOne() {
+    return await cartsDao.readOne();
+  }
+
+  // Get cart by ID
+  async readOneById(id) {
+    return await cartsDao.readOne({ _id: id });
+  }
+
   // Add product to a specific cart
   async addProductToCart(userId, productId) {
     // First, find the user's cart by userId
@@ -50,14 +60,26 @@ class CartsService {
     console.log("Product added to the cart");
   }
 
-  async readOne() {
-    return await cartsDao.readOne();
+  async deleteProductFromCart(cartId, productId) {
+    try {
+      const update = {
+        $pull: { products: { productId: productId } }
+      };
+  
+      const updatedCart = await cartsDao.updateOne({ _id: cartId }, update);
+  
+      if (!updatedCart) {
+        throw new Error("Failed to remove product from cart");
+      }
+  
+      return updatedCart;
+    } catch (error) {
+      Logger.error("Error removing product from cart:", error);
+      throw error;
+    }
   }
+  
 
-  // Get cart by ID
-  async readOneById(id) {
-    return await cartsDao.readOne({ _id: id });
-  }
 
   // Update cart by ID
   async updateCart(_id, updatedCart) {
@@ -97,6 +119,7 @@ class CartsService {
       throw error;
     }
   }
+
 }
 
 export const cartsService = new CartsService();

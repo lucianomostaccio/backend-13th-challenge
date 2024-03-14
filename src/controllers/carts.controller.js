@@ -22,7 +22,21 @@ export async function postController(req, res, next) {
 export async function putController(req, res, next) {
   try {
     const { cartId } = req.params;
-    const updatedCart = await cartsService.updateCart(cartId, req.body);
+    const payload = req.body;
+
+    if (
+      payload.action &&
+      payload.action === "removeProduct" &&
+      payload.productId
+    ) {
+      const updatedCart = await cartsService.deleteProductFromCart(
+        cartId,
+        payload.productId
+      );
+      return res.result(updatedCart);
+    }
+
+    const updatedCart = await cartsService.updateCart(cartId, payload);
     res.result(updatedCart);
   } catch (error) {
     next(error);
@@ -37,3 +51,16 @@ export async function deleteController(req, res, next) {
     next(error);
   }
 }
+
+// export async function deleteProductFromCartController(req, res, next) {
+//   try {
+//     const { cartId, productId } = req.params;
+//     const updatedCart = await cartsService.deleteProductFromCart(
+//       cartId,
+//       productId
+//     );
+//     res.result(updatedCart);
+//   } catch (error) {
+//     next(error);
+//   }
+// }
