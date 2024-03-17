@@ -9,7 +9,7 @@
 <h1 class="pageTitle">Products in cart</h1>
 
 <ul class="productList">
-  {{#each productsInCart.products}}
+  {{#each products}}
     <li class="productTitle">
       {{productId.title}}
       -
@@ -19,16 +19,9 @@
       - quantity:{{quantity}}
       units
       <form
-        class="removeFromCartButton"
-        action="/products/{{productId._id}}/remove-from-cart"
-        method="PUT"
+        onsubmit="removeProductFromCart(event, '{{../cartId}}', '{{this.productId._id}}')"
       >
-        <form
-          class="removeFromCartButton"
-          onsubmit="removeProductFromCart(event, '{{../cart._id}}', '{{productId._id}}')"
-        >
-          <button type="submit">Remove from Cart</button>
-        </form>
+        <button type="submit">Remove from Cart</button>
       </form>
     </li>
   {{/each}}

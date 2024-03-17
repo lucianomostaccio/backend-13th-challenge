@@ -22,6 +22,7 @@ webUsersRouter.get("/profile", onlyLoggedInWeb, async (req, res) => {
   try {
     const usersDao = getDaoUsers();
     Logger.debug("Session user object:", req.session["user"]); // Log the session user object
+    console.log(req.session["user"])
 
     const updatedUser = await usersDao
       .readOne({ email: req.session["user"].email }, { password: 0 })
@@ -34,6 +35,7 @@ webUsersRouter.get("/profile", onlyLoggedInWeb, async (req, res) => {
         ? "admin"
         : "user";
     Logger.debug("User role:", updatedUser.role); // Log the determined user role
+    console.log("User role:", updatedUser.role)
 
     const normalizedImagePath = updatedUser.profile_picture.replace(/\\/g, "/");
     Logger.debug("Normalized image path:", normalizedImagePath); // Log the normalized image path

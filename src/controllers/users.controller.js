@@ -31,7 +31,7 @@ export async function postController(req, res, next) {
 //update
 export async function putController(req, res, next) {
   try {
-    const userId = req.params.userId || req.session.user._id; // Asume que el ID del usuario está en la sesión o parámetros
+    const userId = req.params.userId || req.session.user._id; 
     const updateFields = {
       first_name: req.body.first_name,
       last_name: req.body.last_name,

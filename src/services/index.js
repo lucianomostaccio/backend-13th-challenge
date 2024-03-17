@@ -1,6 +1,6 @@
 // import { getDaoCarts } from '../daos/Carts/Carts.dao.js'
 // import { getEmailService } from './email/email.service.js'
-import { productsService } from './products.service.js'
+// import { productsService } from './products.service.js'
 // import { NewslettersService } from './newsletters.service.js'
 // import { getSmsService } from './sms/sms.service.js'
 // import { CartsService } from './Carts.service.js'

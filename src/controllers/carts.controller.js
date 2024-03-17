@@ -21,19 +21,13 @@ export async function postController(req, res, next) {
 
 export async function putController(req, res, next) {
   try {
-    const { cartId } = req.params;
+    const { cartId, productId } = req.params;
+
     const payload = req.body;
 
-    if (
-      payload.action &&
-      payload.action === "removeProduct" &&
-      payload.productId
-    ) {
-      const updatedCart = await cartsService.deleteProductFromCart(
-        cartId,
-        payload.productId
-      );
-      return res.result(updatedCart);
+    if (payload.action === "removeProduct" && productId) {
+      const updatedCart = await cartsService.deleteProductFromCart(cartId, productId);
+      return res.result(updatedCart); 
     }
 
     const updatedCart = await cartsService.updateCart(cartId, payload);

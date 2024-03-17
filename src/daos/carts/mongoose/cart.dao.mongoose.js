@@ -57,7 +57,7 @@ export class CartDaoMongoose {
   }
 
   async addProductToCart(userId, productId, quantity = 1) {
-    // Find the cart based on userId, not just any query
+    // Find the cart based on userId
     const cart = await this.cartModel.findOne({ userId }).lean();
     if (!cart) {
       Logger.warning("Cart not found for user:", userId);

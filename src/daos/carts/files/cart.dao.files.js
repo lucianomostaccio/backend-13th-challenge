@@ -40,11 +40,6 @@ export class CartDaoFiles {
     return cart || null;
   }
 
-  async readMany(userId) {
-    const carts = await this.#readCarts();
-    return carts.filter((cart) => cart.userId === userId);
-  }
-
   async updateOne(id, data) {
     const carts = await this.#readCarts();
     const index = carts.findIndex((cart) => cart.id === id);

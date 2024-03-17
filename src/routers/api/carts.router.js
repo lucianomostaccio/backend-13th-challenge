@@ -13,7 +13,7 @@ export const cartsRouter = Router();
 cartsRouter.get("/", getController);
 cartsRouter.post("/", postController);
 cartsRouter.get("/:cartId", getController);
-cartsRouter.put("/products/", putController);
+cartsRouter.put("/:cartId/products/:productId", putController);
 cartsRouter.delete("/:cartId", deleteController);
 
 // cartsRouter.post("/:cid/purchase", createOrder);

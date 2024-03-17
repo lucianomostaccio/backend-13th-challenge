@@ -12,7 +12,6 @@ class CartsService {
     return savedCart;
   }
 
-  
   async readOne() {
     return await cartsDao.readOne();
   }
@@ -62,12 +61,26 @@ class CartsService {
 
   async deleteProductFromCart(cartId, productId) {
     try {
-      const update = {
-        $pull: { products: { productId: productId } }
-      };
+      // Diagnostic logging to see the cart and product IDs being processed
+      console.log("Received the following cartId and productId in cart service:", cartId, productId);
   
+      // First, find the cart by cartId
+      let cart = await cartsDao.readOne({ _id: cartId });
+      console.log("Cart before deleting product:", cart);
+  
+      // If the cart doesn't exist, throw an error
+      if (!cart) {
+        throw new Error("Cart not found");
+      }
+  
+      // Prepare the update operation to remove the product from the cart
+      const update = { $pull: { products: { productId: productId } } };
+  
+      // Update the cart in the database
       const updatedCart = await cartsDao.updateOne({ _id: cartId }, update);
+      console.log("Cart updated in carts service:", updatedCart);
   
+      // If the update operation didn't return an updated cart, throw an error
       if (!updatedCart) {
         throw new Error("Failed to remove product from cart");
       }
@@ -79,7 +92,6 @@ class CartsService {
     }
   }
   
-
 
   // Update cart by ID
   async updateCart(_id, updatedCart) {
@@ -119,7 +131,6 @@ class CartsService {
       throw error;
     }
   }
-
 }
 
 export const cartsService = new CartsService();

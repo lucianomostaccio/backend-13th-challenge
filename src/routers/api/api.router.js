@@ -17,7 +17,7 @@ apiRouter.use(json());
 apiRouter.use(urlencoded({ extended: true }));
 
 apiRouter.use("/products", productsRouter);
-apiRouter.use("/cart", cartsRouter);
+apiRouter.use("/carts", cartsRouter);
 apiRouter.use("/sessions", sessionsRouter);
 apiRouter.use("/users", usersRouter);
 apiRouter.use("/loggerTest", loggerRouter);
