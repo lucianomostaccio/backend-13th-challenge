@@ -29,7 +29,8 @@
 
 <h2>Total: {{formatPrice total}}</h2>
 
-<button type="submit">Clear cart</button>
+<button id="clearCart" onclick="removeCart(event, '{{cartId}}')">Clear cart</button>
+
 <button type="submit">Buy cart</button>
 
 <script src="/js/cart.js"></script>

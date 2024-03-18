@@ -22,3 +22,27 @@ function removeProductFromCart(event, cartId, productId) {
     console.error('Error:', error);
   });
 }
+
+function removeCart(event, cartId) {
+  event.preventDefault();
+
+  fetch(`/api/carts/${cartId}`, {
+    method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+  .then(response => {
+    if (response.ok) {
+      console.log("Cart cleared successfully");
+      window.location.reload();
+    } else {
+      throw new Error('Failed to clear cart');
+    }
+  })
+  .catch(error => {
+    console.error("Error clearing cart:", error);
+    alert("Error clearing cart. Please try again.");
+  });
+}
+

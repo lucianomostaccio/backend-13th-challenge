@@ -39,8 +39,9 @@ export async function putController(req, res, next) {
 
 export async function deleteController(req, res, next) {
   try {
-    const cart = await cartsService.deleteCart(req.body);
-    res.delete(cart);
+    const { cartId } = req.params;
+    await cartsService.deleteCart(cartId);
+    res.json({ message: 'Cart cleared successfully' });
   } catch (error) {
     next(error);
   }
