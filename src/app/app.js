@@ -42,6 +42,7 @@ app.set("view engine", "handlebars");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "..", "static"))); //specify static folder
+app.use(cookieParser());
 app.use(sessions);
 initializePassport();
 initializeGithubPassport();
@@ -51,6 +52,5 @@ app.use(errorMiddleware);
 // app.use(cors())
 
 // routers
-app.use(cookieParser());
 app.use("/", webRouter);
 app.use("/api", apiRouter);

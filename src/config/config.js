@@ -12,8 +12,8 @@ export const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET;
 export const GITHUB_CALLBACK_URL = process.env.GITHUB_CALLBACK_URL;
 export const DEFAULT_USER_AVATAR_PATH = process.env.DEFAULT_USER_AVATAR_PATH;
 
-export const EXECUTION_MODE = "online";
-// export const EXECUTION_MODE = "offline;"
+// export const EXECUTION_MODE = "online";
+export const EXECUTION_MODE = "offline;"
 
 export const SWAGGER_CONFIG = {
   definition: {

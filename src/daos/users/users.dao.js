@@ -9,17 +9,18 @@ const PATH_USERS_FILES = "./files/users.dao.files.js";
 
 let daoUsers;
 
+// @ts-ignore
 if (EXECUTION_MODE === "online") {
   if(!daoUsers) {
     const usersModel = model('users', usersSchema)
     daoUsers = new UsersDaoMongoose(usersModel)
     Logger.info('using mongodb persistence - users')
+    console.log('using mongodb persistence - users')
   }
-  // const { getDaoMongoose } = await import("./mongoose/users.dao.mongoose.js");
-  // getDaoUsers = getDaoMongoose;
 } else {
   daoUsers = new UsersDaoFiles(PATH_USERS_FILES)
   Logger.info('using files persistence - users')
+  console.log('using files persistence - users')
 }
 
 export function getDaoUsers() {

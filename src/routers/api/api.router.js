@@ -1,6 +1,5 @@
 import { Router, json, urlencoded } from "express";
 import { productsRouter } from "./products.router.js";
-// import { cartsRouter } from "./carts.router.js";
 import { sessionsRouter } from "./sessions.router.js";
 import { usersRouter } from "./users.router.js";
 import { improvedReplies } from "../../middlewares/improvedReplies.js";
